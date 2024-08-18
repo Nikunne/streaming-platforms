@@ -6,15 +6,17 @@ import StreamingService from "@/app/components/atoms/StreamingService";
 export default function page() {
     return (
         <main>
-            <li>
-                Liste 2
-            </li>
-            <li>
-                Liste 4
-            </li>
-            <StreamingService name = "Netflix">
+            <div className={" border-2 border-blue-950 ml-4 mr-4 flex justify-between"}>
+                <p>
+                    Aktive strømmetjenester
+                </p>
+                <p>
+                    Avskrudde strømmetjenester
+                </p>
+            </div>
+            <StreamingService name = "Netflix"/>
+            <StreamingService name = "disney"/>
 
-            </StreamingService>
         </main>
     );
 }

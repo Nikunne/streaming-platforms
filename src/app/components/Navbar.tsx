@@ -6,7 +6,7 @@ import NavbarEntity from "@/app/components/atoms/NavbarEntity";
 const Navbar = () => {
 
     return (
-        <nav className = " flex justify-between bg-blue-950 text-white items-center" >
+        <nav className = " top-0 fixed w-full z-10 flex justify-between bg-blue-950 text-white items-center" >
             <NavbarEntity name = "Home"  home/>
             <ul className="flex m-3 space-x-3">
                 <li>
